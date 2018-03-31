@@ -7,7 +7,6 @@ Use the following commands to run the example:
 * `npm init`
 * `npm install typescript –g`
 * `tsc –init`
-* `npm install typescript –-save-dev`
 * `code .`
 
 Now create a file named `index.ts`, containing the following code:
@@ -17,4 +16,11 @@ const n = "TypeScript";
 console.log("Hello, " + n + "!");
 ```
 
-Execute the `tsc` command, and examine the output `index.js`.
+Run the following on the command line:
+
+```
+tsc
+node index.js
+```
+
+Examine the output file `index.js`.

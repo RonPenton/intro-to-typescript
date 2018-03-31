@@ -18,10 +18,11 @@ Open the command line and execute the following code:
 
 Examine `package.json` to see how it has changed.
 
-Add the following code to line 7 of `package.json`:
+Add the following code at line 7 of `package.json`:
 
 ```
-    "build": "tsc"
+      "build": "tsc",
+      "start": "node ./dist/index.js"
 ```
 
 Open the file named `tsconfig.json` and make the following changes:
@@ -33,10 +34,11 @@ Open the file named `tsconfig.json` and make the following changes:
     "rootDir": "./src",                   /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
 ```
 
-Execute the following code to compile: 
+Execute the following code to compile and run your program: 
 
 ```
     npm run build
+    npm start
 ```
 
 Examine the `index.js` and `index.d.ts` files in the `/dist` directory.

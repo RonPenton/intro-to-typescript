@@ -2,9 +2,10 @@
   "name": "02-build",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-      "build": "tsc"
+      "build": "tsc",
+      "start": "node ./dist/index.js"
   },
   "author": "",
   "license": "ISC",
