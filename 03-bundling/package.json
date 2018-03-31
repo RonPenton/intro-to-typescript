@@ -1,0 +1,11 @@
+{
+  "name": "02-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/bundle.js",
+  "scripts": {
+
+  },
+  "author": "",
+  "license": "ISC"
+}
