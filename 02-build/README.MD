@@ -33,3 +33,10 @@ Open the file named `tsconfig.json` and make the following changes:
     "rootDir": "./src",                   /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
 ```
 
+Execute the following code to compile: 
+
+```
+    npm run build
+```
+
+Examine the `index.js` and `index.d.ts` files in the `/dist` directory.
