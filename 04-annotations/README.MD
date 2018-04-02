@@ -1,6 +1,8 @@
-# Example 3 - Bundling
+# Example 2 - Build
 
-Example 2 works well with applications that have a small number of source files, but once you begin working with larger apps, you will want to use a module system and a bundler. This example shows you how to set up webpack for a barebones bundling system.
+The previous example was simple, in order to demonstrate the basics of setting up an NPM package. In a real-world app, however, you will want to have a more complex build system setup that interacts well with source control. This sample shows you the recommended setup for a basic TypeScript app that will grow beyond a single file.
+
+This example and all that follow it will build upon the concepts learned in previous examples, and so will have many of the previous steps you used to set them up already done for you.
 
 Use the following commands to setup and load the example:
 
