@@ -1,4 +1,4 @@
-# Example 2 - Build
+# Example 4 - Annotations
 
 The previous example was simple, in order to demonstrate the basics of setting up an NPM package. In a real-world app, however, you will want to have a more complex build system setup that interacts well with source control. This sample shows you the recommended setup for a basic TypeScript app that will grow beyond a single file.
 
