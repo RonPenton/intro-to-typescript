@@ -75,7 +75,10 @@ x = 3;  // error, 3 is not allowed.
 
 
 // Strings are far more useful:
-type StringTypeEnum = "Value 1" | "Value 2" | "Value 3";
+type StringTypeEnum = 
+    "Value 1" | 
+    "Value 2" | 
+    "Value 3";
 
 var y: StringTypeEnum;
 
